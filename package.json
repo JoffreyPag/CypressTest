@@ -1,0 +1,18 @@
+{
+  "name": "primeiro-projeto",
+  "version": "1.0.0",
+  "description": "Primeiro projeto com Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "cypress:verify": "cypress verify",
+    "cypress:run": "cypress run"
+  },
+  "author": "Joffrey",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.8.1",
+    "mochawesome": "^7.1.3",
+    "typescript": "^5.0.2"
+  }
+}
