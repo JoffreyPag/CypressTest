@@ -1,5 +1,5 @@
 describe('Buscar fotos e dados', ()=>{
-    it('buscar fotos do flavio', () => {
+    it.only('buscar fotos do flavio', () => {
         cy.request(
             'GET',
             'https://apialurapic.herokuapp.com/flavio/photos'
@@ -10,7 +10,7 @@ describe('Buscar fotos e dados', ()=>{
             expect(res.body[0].description).to.be.equal('Farol iluminado')
         })
     });
-    it.only('fazer login do flavio', () => {
+    it('fazer login do flavio', () => {
         cy.request(
             'POST',
             'https://apialurapic.herokuapp.com/user/login',

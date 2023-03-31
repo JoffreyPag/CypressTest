@@ -1,6 +1,6 @@
 describe('Cadastro de ususarios alura pic', ()=>{
     beforeEach(() => {
-        cy.visit('https://alura-fotos.herokuapp.com')
+        cy.visit('/')
     });
 
     it('verifica email invalido', () => {

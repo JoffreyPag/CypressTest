@@ -1,6 +1,6 @@
 describe('Usabilidade da pagina inicial', ()=>{
     beforeEach(() => {
-        cy.visit('https://alura-fotos.herokuapp.com')
+        cy.visit('/')
     });
     it('verifica mensagens tela inicial', () => {
         cy.contains('ap-vmessage','User name is required!').should('be.visible')
